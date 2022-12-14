@@ -16,7 +16,7 @@ website: https://velog.io/@hwangkyojin
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
@@ -50,67 +50,68 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-    Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
     You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
       - Lists
       - Tables
       - <a href="google.com">Links</a>
-      - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-    - title: Projects # Title for the section
+    - title: Team Project # Title for the section
       layout: list # Type of content section (list/text)
       content:
           - layout: left
             border:
                 weak # Value of `weak` will display a weak border below this item. # Any
                 # other value (or no value) means no border will be displayed
-            title: Project name
-            link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            title: Z9(공구마켓)
+            link: Link to project (https://github.com/code-bootcamp/Z9PROJECT_client.git)
             link_text: Link Text
             additional_links:
                 - title: Github page for project (eg. sproogen/modern-resume-theme)
                   icon: fab fa-github
-                  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+                  url: https://github.com/code-bootcamp/Z9PROJECT_client.git
                 - title: Github page for project (eg. sproogen/modern-resume-theme)
                   icon: fab fa-github
-                  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-            quote: >
-                Short overview of the project (optional)
+                  url: https://github.com/code-bootcamp/Z9PROJECT_server.git
+            # quote: >
+            #     # Short overview of the project (optional)
             description: | # this will include new lines to allow paragraphs
-                Description about the work on/with the project
+                기간 : 2022년 10월 31일 ~ 2022년 11월 23일 (약 4주간)
+                기획 : 인플루언서 주도 공구진행 마켓
     - title: Experience
       layout: list
       content:
           - layout: right
-            title: Company name
-            sub_title: Job title
-            caption: Date Range (eg. November 2016 - present)
-            link: Link to company (optional)
+            title: 화물공제조합
+            sub_title:
+            caption: Date Range (2019년 06월 ~ 2022년 03월)
+            # link: Link to company (optional)
             quote: >
                 Short description of the company (optional)
             description: | # this will include new lines to allow paragraphs
-                Description of role
+                대인/대물 보상과
     - title: Education
       layout: list
       content:
           - layout: top-right
-            title: Institution name
-            sub_title: Qualifications (eg. BA Performing Arts)
-            caption: Date Range (eg. 2016 - 2019)
+            title: 코드캠프
+            sub_title: 오프라인과정
+            caption: |
+                프론트엔드 (2022년 07월 04일 ~ 2022년 08월 26일) 
+                백엔드(2022년 08월 29일 ~ 2022년 10월 27일)
+                팀프로젝트(2022년 10월 28일 ~ 2022년 11월 22일)
             quote: >
                 Short institution or course description (optional)
             description: | # this will include new lines to allow paragraphs
                 Description of qualification
     - title: A Little More About Me
       layout: text
-      content: | # this will include new lines to allow paragraphs
-          This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      content:
+          | # this will include new lines to allow paragraphs **글씨** <-- 하이라이트
 
-          Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
@@ -140,3 +141,23 @@ exclude:
         "scripts/",
         "docker-compose.yml",
     ]
+# 이력서 쓰는 방법
+# 어떤프로젝트를 했고 누구랑했는지가 제일 중요함.
+# 어떤경험을 했는지 어떤 경험을 하고자 했는지, 얼만큼 해 나아갔는지
+# 어필하고자 하는것?! 어려움 극복방법, 배운점 기재
+# 팀프로젝트에서 어떤 부분을 했는지 어떤 기여를 했는지(*중요* 무엇을 얻었는지?! 다음프로젝트에 개선한점 기재)
+# 두괄식!!
+# 자기소개 간단하게 첫번째()
+# 주요기술(node, nestjs, mysql, javascript), 기술태그(typescript, gcp)
+# [주요기능] / [담당 역할] / [성과 및 배운점]
+# 학습용 프로젝트보다 상업용 프로젝트가 더 매력적일수있다.
+# 간단한 자기 소개
+# 어떤 스택으로 뭘 했는지
+# 왜 개발자가 되려고 하는지
+# 개발자 커리어의 목표
+# 자기어필할 수 있는 포인트
+
+# 프로젝트
+# 배운점
+# 오류발생시 해결한방법
+# 팀프로젝트라면 어떻게 의견을 조율했는지
